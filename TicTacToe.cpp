@@ -9,10 +9,14 @@ void CreateBoard(std::string Board[3][3]){
     }
 }
 
+void DisplayBoard(std::string Board[3][3]){
+    std::cout << Board[1][1] << " | " << Board[0][1] << " | " << Board[0][2] << " | " << std::endl;
+    std::cout << Board[1][1] << " | " << Board[1][1] << " | " << Board[1][2] << " | " << std::endl;
+    std::cout << Board[2][0] << " | " << Board[2][1] << " | " << Board[2][2] << " | "<< std::endl;
+}
+
 int main(){
     std::string tttBoard[3][3];
     CreateBoard(tttBoard);
-    std::cout << tttBoard[0][0] << "  " << tttBoard[0][1] << "  " << tttBoard[0][2] << "  " << std::endl;
-    std::cout << tttBoard[1][0] << "  " << tttBoard[1][1] << "  " << tttBoard[1][2] << " " << std::endl;
-    std::cout << tttBoard[2][0] << "  " << tttBoard[2][1] << "  " << tttBoard[2][2] << " " << std::endl;
+    DisplayBoard(tttBoard);
 }
