@@ -26,8 +26,53 @@ int GetPlayerChoice(){
     return choice;
 }
 
+void PlaceMarker(int square, std::string marker, std::string Board[3][3]){
+    switch (square) {
+        case 1:
+            Board[0][0] = marker;
+            break;
+        case 2:
+            Board[0][1] = marker;
+            break;
+        case 3:
+            Board[0][2] = marker;
+            break;
+        case 4:
+            Board[1][0] = marker;
+            break;
+        case 5:
+            Board[1][1] = marker;
+            break;
+        case 6:
+            Board[1][2] = marker;
+            break;
+        case 7:
+            Board[2][0] = marker;
+            break;
+        case 8:
+            Board[2][1] = marker;
+            break;
+        case 9:
+            Board[2][2] = marker;
+            break; 
+    }
+}
+
 int main(){
-    std::string tttBoard[3][3];
+    std::string tttBoard[3][3], marker;
+    int counter = 0, choice;
     CreateBoard(tttBoard);
     DisplayBoard(tttBoard);
+    while (counter < 9){
+        choice = GetPlayerChoice();
+        if (counter % 2 == 0){
+            marker = "X";
+        }
+        else {
+            marker = "O";
+        }
+        PlaceMarker(choice, marker, tttBoard);
+        DisplayBoard(tttBoard);
+        counter += 1;
+    }
 }
