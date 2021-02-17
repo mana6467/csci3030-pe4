@@ -53,13 +53,26 @@ void PlaceMarker(int square, std::string marker, std::string Board[3][3]){
             Board[2][1] = marker;
             break;
         case 9:
-            Board[1][2] = marker;
+            Board[2][2] = marker;
             break; 
     }
 }
 
 int main(){
-    std::string tttBoard[3][3];
+    std::string tttBoard[3][3], marker;
+    int counter = 0, choice;
     CreateBoard(tttBoard);
     DisplayBoard(tttBoard);
+    while (counter < 9){
+        choice = GetPlayerChoice();
+        if (counter % 2 == 0){
+            marker = "X";
+        }
+        else {
+            marker = "O";
+        }
+        PlaceMarker(choice, marker, tttBoard);
+        DisplayBoard(tttBoard);
+        counter += 1;
+    }
 }

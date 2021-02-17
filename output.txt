@@ -1,0 +1,50 @@
+jovyan@jupyter-mana6467:~/3010/PE4/csci3030-pe4$ ./a.out
+⬜ | ⬜ | ⬜ | 
+⬜ | ⬜ | ⬜ | 
+⬜ | ⬜ | ⬜ | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+9
+⬜ | ⬜ | ⬜ | 
+⬜ | ⬜ | ⬜ | 
+⬜ | ⬜ | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+8
+⬜ | ⬜ | ⬜ | 
+⬜ | ⬜ | ⬜ | 
+⬜ | O | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+5
+⬜ | ⬜ | ⬜ | 
+⬜ | X | ⬜ | 
+⬜ | O | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+7
+⬜ | ⬜ | ⬜ | 
+⬜ | X | ⬜ | 
+O | O | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+1
+X | ⬜ | ⬜ | 
+⬜ | X | ⬜ | 
+O | O | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+3
+X | ⬜ | O | 
+⬜ | X | ⬜ | 
+O | O | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+2
+X | X | O | 
+⬜ | X | ⬜ | 
+O | O | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+4
+X | X | O | 
+O | X | ⬜ | 
+O | O | X | 
+Pick a square to mark. (Numbered 1-9 s.t. row 1 = sqaures [1][2][3] etc.)
+6
+X | X | O | 
+O | X | X | 
+O | O | X | 
+jovyan@jupyter-mana6467:~/3010/PE4/csci3030-pe4$ 
